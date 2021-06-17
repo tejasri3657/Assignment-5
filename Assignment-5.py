@@ -29,7 +29,6 @@ for i in range(len(x)):
 roots=p.r
 A=np.array([roots[0],0])
 B=np.array([roots[1],0])
-print(A,B)
 
 plt.plot(A[0], A[1], 'o')
 plt.text(A[0] * (1 + 0.1), A[1] * (1 - 0.1) , 'A')
